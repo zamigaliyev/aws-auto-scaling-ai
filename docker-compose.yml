@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  autoscale-ai:
+    build: .
+    container_name: autoscale-ai
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - model-store:/app/models
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  model-store:

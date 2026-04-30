@@ -1,0 +1,40 @@
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# AWS SDK
+boto3==1.35.0
+botocore==1.35.0
+
+# ML / Data Science
+numpy>=2.0.0
+pandas==2.2.2
+scikit-learn==1.5.1
+joblib==1.4.2
+
+# Async & Scheduling
+apscheduler==3.10.4
+asyncio-throttle==1.0.2
+
+# Configuration & Validation
+pydantic==2.8.2
+pydantic-settings==2.4.0
+python-dotenv==1.0.1
+
+# Monitoring & Logging
+structlog==24.4.0
+prometheus-fastapi-instrumentator==7.0.0
+
+# HTTP Client
+httpx==0.27.2
+
+# Testing
+pytest==8.3.2
+pytest-asyncio==0.23.8
+pytest-mock==3.14.0
+httpx==0.27.2
+
+# Utilities
+tenacity==8.5.0
+cachetools==5.4.0
