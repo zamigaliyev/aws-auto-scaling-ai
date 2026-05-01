@@ -12,6 +12,12 @@ AI-powered auto scaling system on AWS that dynamically adjusts infrastructure ba
 This project demonstrates an intelligent cloud system using **AWS Auto Scaling Groups (ASG)**.  
 It automatically scales EC2 instances up/down based on workload.
 
+## 🔥 Highlights
+
+- Real AWS infrastructure deployment  
+- Demonstrated scaling (1 → 2 instances)  
+- Backend API integration (FastAPI)  
+
 ---
 
 ## 🧠 Architecture
@@ -101,4 +107,4 @@ Sensitive data has been hidden:
 
 ## 👨‍💻 Author
 
-** Zamig Aliyev **
+**Zamig Aliyev**
