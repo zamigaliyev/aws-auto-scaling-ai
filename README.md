@@ -1,6 +1,3 @@
-# aws-auto-scaling-ai
-AI-powered auto scaling system on AWS that dynamically adjusts infrastructure based on real-time demand.
-
 # 🚀 AI Auto Scaling System on AWS
 
 > AI-powered auto scaling system that dynamically adjusts AWS infrastructure based on real-time demand.
